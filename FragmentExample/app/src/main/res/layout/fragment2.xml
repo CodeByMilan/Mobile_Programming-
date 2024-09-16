@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/length"
+        android:hint="enter the length"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/breadth"
+        android:hint="Enter The breadth"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/length"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/area"
+        android:text="Calculate Area"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/breadth"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showarea"
+        android:layout_below="@+id/area"
+        />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SignUpForm</string>
+    <string-array name="courses">
+        <item>BCA</item>
+        <item>CSIT</item>
+        <item>Engineering</item>
+    </string-array>
+</resources>
